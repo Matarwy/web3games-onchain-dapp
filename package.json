@@ -5,9 +5,9 @@
   "author": "henryliu",
   "license": "GPL3",
   "scripts": {
-    "dev": "next --port 3002",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next --port 3002",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "type-check": "tsc",
     "test": "jest",
     "format": "prettier --write 'src/**/*ts'",
